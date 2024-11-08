@@ -1,6 +1,6 @@
 ---
 title: "Proposal_P8105"
-output: pdf_document
+output: github_document
 header-includes:
   - \usepackage{titling}
   - \setlength{\droptitle}{-3cm}
@@ -11,11 +11,14 @@ header-includes:
   - \usepackage{titlesec}
   - \titleformat{\section}[block]{\normalfont\Large\bfseries}{\thesection}{1em}{}
   - \titlespacing*{\section}{0pt}{5pt}{5pt}
+  - \titlespacing*{\subsection}{0pt}{3pt}{1pt}
 geometry: "left=2cm, right=2cm, top=2cm, bottom=2cm"
 ---
 
 # Intended Title: A Loo-K into New York City’s Parks
 —--- Analyzing Sanitation Access and Community Well-being in NYC Parks
+
+Group members: Fengwei Lei (fl2715), Liqi Zhou (lz3014), Maggie Hsu (mh4588), Xueting Li (xl3495), Yining Cao (yc4588)
 
 # 1. Motivation
 
@@ -40,7 +43,7 @@ By integrating and presenting these datasets, we aim to empower communities, res
 - Provides detailed restroom inspection data, including cleanliness, maintenance status, and safety hazards, allowing us to evaluate the overall state of restrooms and identify improvement areas.
 
 ## 4) Additional Data Sources
-We may also explore supplementary datasets for a more comprehensive view:
+We may also explore supplementary datasets for a more comprehensive view.
 
 - [Dog Runs](https://data.cityofnewyork.us/Recreation/NYC-Parks-Dog-Runs/8nac-uner): Insights into dog-friendly spaces that may reflect park health.
 - [Crime Data](https://data.cityofnewyork.us/Public-Safety/NYC-Park-Crime-Data/ezds-sqp6/about_data): Analysis of park-related crime to understand safety concerns and their impact on amenities.
